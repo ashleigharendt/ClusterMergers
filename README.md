@@ -1,5 +1,7 @@
 # ClusterMergers
-Model to predict likelihood of a cluster merger
+This repository includes code to predict likelihood of a cluster merger, based on simulated SZ and X-ray images. 
+It takes an array of 96 x 96 pixel images of clusters, with one channel corresponding to the SZ filter, and one for the X-ray, and outputs the likelihood of that cluster being a merger. The output is a probability taking a value between 0 and 1, with 1 being 100% likely to be merging.
+More information on the project and model is described in **link to paper pending**
 
 
 ### Dependencies
@@ -8,3 +10,11 @@ numpy == 1.23.5
 astropy == 5.2.1    
 pillow == 9.4.0    
 opencv == 4.7.0.72
+
+## How to run
+ClusterMergers.py is an executable python file containing the model class needed for predictions. It contains methods to preprocess the images, if needed, as well as call the model to make predictions.
+An example of how to use the model to run a prediction is outlined in the PredictionExample.ipynb jupyter notebook.
+
+## Contact information
+For any questions please contact the author Ashleigh Arendt: arendtash@hotmail.com. 
+

@@ -12,11 +12,14 @@ astropy == 5.2.1
 pillow == 9.4.0    
 opencv == 4.7.0.72
 
+## Repository items
+*ClusterMergers.py* - an executable python file containing the model class needed for predictions. It contains methods to preprocess the images, if needed, as well as call the model to make predictions.    
+*PredictionExample.ipynb* - contains an example of how to use the model to run a prediction.    
+*example_folder/* - contains two example fits files taken from The 300 project simulations.    
+*model/* - contains the tensorflow model ready to load and use.
+
 ## How to run
-*ClusterMergers.py* is an executable python file containing the model class needed for predictions. It contains methods to preprocess the images, if needed, as well as call the model to make predictions.    
-*PredictionExample.ipynb* contains an example of how to use the model to run a prediction.    
-*example_folder/* contains two example fits files taken from The 300 project simulations.    
-*model/* contains the tensorflow model ready to load and use.
+To make a single prediction, import and call BaseModel.predict_merger_prob() function within ClusterMergers.py, as shown in PredictionExample.ipynb.
 
 ## Contact information
 For any questions please contact the author Ashleigh Arendt: [arendtash@hotmail.com](arendtash@hotmail.com). 

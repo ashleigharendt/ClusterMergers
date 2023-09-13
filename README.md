@@ -1,6 +1,9 @@
 # ClusterMergers
 This repository includes code to predict likelihood of a cluster merger, based on simulated SZ and X-ray images.     
-It takes an array of 96 x 96 pixel images of clusters, with one channel corresponding to the SZ filter, and one for the X-ray, and outputs the likelihood of that cluster being a merger.     
+It takes an array of 96 x 96 pixel images of clusters, with one channel corresponding to the SZ filter, and one for the X-ray, and outputs the likelihood of that cluster being a merger.
+Input images must have side length = 4R200 as shown below.
+
+![](r200_size_requirement.png)    
 The output is a probability taking a value between 0 and 1, with 1 being 100% likely to be merging.    
 More information on the project and model is described in **link to paper pending**
 

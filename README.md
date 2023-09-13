@@ -13,7 +13,7 @@ tensorflow == 2.12.0
 numpy == 1.23.5     
 astropy == 5.2.1    
 pillow == 9.4.0    
-opencv == 4.7.0.72
+opencv-python == 4.7.0.72
 
 ## Repository items
 *ClusterMergers.py* - an executable python file containing the model class needed for predictions. It contains methods to preprocess the images, if needed, as well as call the model to make predictions.    

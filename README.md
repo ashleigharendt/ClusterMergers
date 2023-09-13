@@ -27,3 +27,5 @@ To make a single prediction, import and call BaseModel.predict_merger_prob() fun
 ## Contact information
 For any questions please contact the author Ashleigh Arendt: [arendtash@hotmail.com](arendtash@hotmail.com). 
 
+## Licensing
+If you wish to use the code for any publication please ensure to reference the paper included here, as well as The 300 catalogue.
